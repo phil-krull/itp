@@ -13,8 +13,8 @@
     * [VS Code](https://code.visualstudio.com/)
     * Chrome
 * Client Side (Frontend) development
-    * HTML
-    * CSS
-    * JavaScript
+    * [HTML](https://www.w3schools.com/html/default.asp)
+    * [CSS](https://www.w3schools.com/css/default.asp)
+    * [JavaScript](https://www.w3schools.com/js/default.asp)
 * Let's build a Web Page!!!
     * What is your favorite topic?  
