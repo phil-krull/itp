@@ -1,0 +1,63 @@
+/* html selectors
+    tag element
+    class name - used multiple times
+    id 
+*/
+
+body {
+    background-color: aquamarine;
+}
+
+body * {
+    font-family: 'blackpearl';
+    border: 1px dotted red;
+}
+
+h1 {
+    text-align: center;
+}
+
+.para_side {
+    display: inline-block;
+    width: 400px;
+    height: 245px;
+    vertical-align: top;
+    overflow: scroll;
+    margin: 0;
+    float: right;
+}
+
+.list_box {
+    width: 700px;
+    margin: 0 auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.dark_green {
+    color: darkgreen;
+}
+
+#ship_image {
+    border: 2px solid black;
+}
+
+ol, ul {
+    width: 300px;
+    background-color: tomato;
+    display: inline-block;
+}
+ol {
+    list-style-type: lower-alpha;
+}
+
+thead tr {
+    color: whitesmoke;
+    background-color: black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: darkgray;
+}

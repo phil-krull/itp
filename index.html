@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Pirate Website</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <h1>Black Pearl</h1>
+    <div>
+        <img id="ship_image" src="Black_Pearl.png" alt="black pearl picture" width="300">
+        <p class="para_side">
+            Rutters lee chantey coffer holystone piracy sutler ahoy lookout aft heave down swing the lead jolly boat maroon Admiral of the Black reef sails American Main carouser skysail blow the man down. Sink me Blimey hardtack Sea Legs Pirate Round Pieces of Eight chase guns scuttle pinnace reef chandler scurvy Jack Ketch spike draught snow Letter of Marque measured fer yer chains quarter lass. Gaff case shot smartly lugsail barkadeer sheet gangplank square-rigged Privateer me hail-shot Spanish Main scurvy Arr topgallant mizzenmast cutlass handsomely cable nipperkin.
+        </p>
+    </div>
+    <div class="list_box">
+        <ol>
+            <li class="dark_green">TAsk one</li>
+            <li>Task two</li>
+            <li>Task three</li>
+        </ol>
+        <ul>
+            <li class="dark_green">subtile one</li>
+            <li>subtitle two</li>
+            <li>subtitle three</li>
+        </ul>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Bounty</th>
+                <th>Position</th>
+                <th>Ship</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jack Sparrow</td>
+                <td>2000</td>
+                <td>Captain</td>
+                <td>Black Pearl</td>
+            </tr>
+            <tr>
+                <td>Barbosa</td>
+                <td>1500</td>
+                <td>Captain</td>
+                <td>Black Pearl</td>
+            </tr>
+            <tr>
+                <td>Bootstrap Bill</td>
+                <td>200</td>
+                <td>Crewman</td>
+                <td>Black Pearl</td>
+            </tr>
+        </tbody>
+    </table>
+    <button id="destroy">Destroy</button>
+    <script>
+        console.log(document);
+        var my_button = document.getElementById('destroy');
+        console.log('my_button', my_button);
+        my_button.addEventListener('click', function(){
+            console.log('button clicked');
+            document.body.innerHTML = '<img src="skull.png" alt="skull and bones">'
+        });
+    </script>
+</body>
+
+</html>
